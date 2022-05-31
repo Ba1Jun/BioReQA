@@ -71,18 +71,18 @@ python3 train_reqa.py \
 run the script "run_nli_pre_train.sh".
 ```bash
 python3 train_nli.py \
-  --max_premise_len 64 \
-  --max_hypothesis_len 32 \
-  --epoch 3 \
-  --batch_size 32 \
-  --encoder_type biobert \
-  --plm_path ./models/biobert-base-cased-v1.1 \ # your path to the pre-trained model parameters of bioert
-  --pooler_type mean \
-  --temperature 0.05 \
-  --save_model output/nli/ \
-  --learning_rate 2e-5 \
-  --warmup_proportion 0.1 \
-  --seed 42 \
+      --max_premise_len 64 \
+      --max_hypothesis_len 32 \
+      --epoch 3 \
+      --batch_size 32 \
+      --encoder_type biobert \
+      --plm_path ./models/biobert-base-cased-v1.1 \ # your path to the pre-trained model parameters of bioert
+      --pooler_type mean \
+      --temperature 0.05 \
+      --save_model output/nli/ \
+      --learning_rate 2e-5 \
+      --warmup_proportion 0.1 \
+      --seed 42 \
 ```
 
 #### 2. Fine-tuning on ReQA BioASQ
