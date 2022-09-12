@@ -1,5 +1,0 @@
-split	dataset	filename	sentence1	sentence2	label
-train	SNLI	snli_1.0_train	A person on a horse jumps over a broken down airplane.	A person is training his horse for a competition.	neutral
-train	SNLI	snli_1.0_train	A person on a horse jumps over a broken down airplane.	A person is at a diner, ordering an omelette.	contradiction
-train	SNLI	snli_1.0_train	A person on a horse jumps over a broken down airplane.	A person is outdoors, on a horse.	entailment
-train	SNLI	snli_1.0_train	Children smiling and waving at camera	They are smiling at their parents	neutral
